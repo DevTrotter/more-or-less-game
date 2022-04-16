@@ -20,5 +20,9 @@
         "prettier"
     ],
     "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-no-useless-fragment": "off",
+        "react/prop-types": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
     }
 }
